@@ -1,17 +1,4 @@
 # NADIR-WEB
-gmail
-web.circolonadir@gmail.com
-piazzettagasparotto
-
-heroku
-web.circolonadir@gmail.com
-piazzettagasparotto
-
-backend dev
-web.circolonadir@gmail.com
-admin
-nadirpiazzettagasparottolo
-
 ## Commands
 /frontend
 gatsby develop
