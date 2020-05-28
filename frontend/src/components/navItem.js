@@ -11,7 +11,11 @@ const Item = ({ section }) => {
                 {
                   section.node.pages.map ((page, i) => { 
                     return (
-                      <li key={page.id}>{page.title}</li>
+                      <li key={page.id}>
+                        <Link to={`/page/${page.id}`}> 
+                          {page.title}
+                        </Link>
+                      </li>
                     ) 
                   })
                 }
@@ -22,7 +26,9 @@ const Item = ({ section }) => {
   } else {
     return(
       <li>
-        <a href="#">{section.node.title}</a>
+        <Link to={`/page/${section.node.page.id}`}> 
+          {section.node.title}
+        </Link>
       </li>
     )
   }

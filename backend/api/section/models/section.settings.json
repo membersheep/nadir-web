@@ -15,6 +15,9 @@
     "pages": {
       "collection": "page",
       "via": "section"
+    },
+    "page": {
+      "model": "page"
     }
   }
 }

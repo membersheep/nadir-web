@@ -36,6 +36,11 @@ const Nav = () => (
                           section
                           title
                         }
+                        page {
+                          id
+                          text
+                          title
+                        }
                       }
                     }
                   }

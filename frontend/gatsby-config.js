@@ -27,7 +27,7 @@ module.exports = {
           "category",
           "event",
           "article",
-          // "page",
+          "page",
         ],
         queryLimit: 1000,
       },
