@@ -1,6 +1,7 @@
 import React from "react"  
 import { StaticQuery } from "gatsby"
 import EventsCarousel from "../components/eventsCarousel"
+import { graphql } from "gatsby"
 
 const EventsSection = () => {
   return (
