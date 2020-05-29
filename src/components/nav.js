@@ -38,7 +38,6 @@ const Nav = () => (
                         }
                         page {
                           id
-                          text
                           title
                         }
                       }

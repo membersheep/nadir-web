@@ -5,7 +5,7 @@ import Moment from "react-moment"
 import Layout from "../components/layout"
 
 export const query = graphql`
-  query PageQuery($id: Int!) {
+  query PageQuery($id: String) {
     strapiPage(strapiId: { eq: $id }) {
       strapiId
       title

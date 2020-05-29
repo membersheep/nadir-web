@@ -7,15 +7,11 @@ import Moment from "react-moment"
 import Layout from "../components/layout"
 
 export const query = graphql`  
-  query EventQuery($id: Int!) {
+  query EventQuery($id: String) {
     strapiEvent(strapiId: { eq: $id }) {
       strapiId
       name
       description
-      date
-      cover {
-        publicURL
-      }
     }
   }
 `

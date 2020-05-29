@@ -12,11 +12,6 @@ const EventsSection = () => {
               node {
                 strapiId
                 name
-                date(formatString: "dddd DD MMMM YYYY")
-                price
-                cover {
-                  publicURL
-                }
               }
             }
           }
