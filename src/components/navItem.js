@@ -5,7 +5,7 @@ const Item = ({ section }) => {
   if (section.node.pages.length > 0) {
     return(
       <li>
-        <a href="#">{section.node.title}</a>
+        <a id="navbar-item" href="#">{section.node.title}</a>
         <div class="uk-navbar-dropdown">
             <ul class="uk-nav uk-navbar-dropdown-nav">
                 {
@@ -26,7 +26,7 @@ const Item = ({ section }) => {
   } else {
     return(
       <li>
-        <Link to={`/page/${section.node.page.id}`}> 
+        <Link id="navbar-item" to={`/page/${section.node.page.id}`}> 
           {section.node.title}
         </Link>
       </li>

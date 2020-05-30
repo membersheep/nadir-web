@@ -1,16 +1,19 @@
 import React from "react"  
 import Layout from "../components/layout"  
-
 import "../assets/css/main.css"
 
 const IndexPage = () => (  
   <Layout>
-     <div className="uk-section-primary">
-        <div className="uk-container uk-container-large">
-          <h1 id="section-title">Sostienici</h1>
-          <p id="section-text">sostienici (testo più pulsanti donazione e 5x1000)</p>
-        </div>
-      </div>
+	<div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height">
+		<div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top">
+			<div class="uk-width-1-2">
+				<h1 class="uk-margin-remove-top">Sostienici</h1>
+				<p class="subtitle-text uk-visible@s">Ci sono tanti progetti in cantiere - in un futuro in cui non sarà tutto come prima, vogliamo esserci con lo stesso spirito di sempre e un rinnovato desiderio di ritrovarsi ancora più forti.  </p>
+				<a href="#" title="Learn More" class="uk-button uk-button-primary uk-border-pill">fai una donazione</a>
+			</div>
+		</div>
+		<img src="/bg.jpg" data-sizes="100vw" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0"/>
+	</div>
   </Layout>
 )
 

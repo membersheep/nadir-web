@@ -3,14 +3,14 @@ import { Link, StaticQuery, graphql } from "gatsby"
 import NavItem from "../components/navItem.js"
 
 const Nav = () => (  
-  <div>
-    <div>
-      <nav className="uk-navbar-container" data-uk-navbar>
+  <div class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+    <div class="uk-container">
+      <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
         <div className="uk-navbar-left">
           <ul className="uk-navbar-nav">
             <li> 
               <div class="vertical-center">
-                <img id="logo" src={'/logo.png'} alt="Logo"/>     
+                <a class="uk-logo" title="Logo" href=""><img src="/logo.png" alt="Logo"/></a>  
               </div>
             </li>
             <li>
