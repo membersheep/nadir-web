@@ -1,17 +1,21 @@
 a {  
+  font-family: Roboto !important;
   text-decoration: none !important;
 }
 
 h1 {  
+  font-family: Roboto !important;
   font-size: 50px !important;
   text-transform: uppercase  !important;
 }
 
-#section-title {
+#section-title {  
+  font-family: Roboto !important;
   color: #000 !important;
 }
 
-#section-text {
+#section-text {  
+  font-family: Roboto !important;
   color: #000 !important;
 }
 
@@ -19,17 +23,20 @@ h1 {
   height: 55px;
 }
 
-#sitename {
+#sitename {  
+  font-family: Roboto !important;
   margin: 0;
   height: 52px;
 }
 
-#category {
+#category {  
+  font-family: Roboto !important;
   font-weight: 500 !important;
 }
 
 #title {
-  letter-spacing: 0.4px !important;
+  letter-spacing: 0.4px !important;  
+  font-family: Roboto !important;
   font-size: 22px !important;
   font-size: 1.375rem !important;
   line-height: 1.13636 !important;
@@ -40,7 +47,8 @@ h1 {
   height: 800px !important;
 }
 
-#editor {
+#editor {  
+  font-family: Roboto !important;
   font-size: 16px !important;
   font-size: 1rem !important;
   line-height: 1.75 !important;
@@ -62,7 +70,8 @@ h1 {
   background: #fff !important;
 }
 
-#navbar-item {
+#navbar-item {  
+  font-family: Roboto !important;
   font-family: sans-serif;
   font-size: 20px;
   font-weight: lighter;
@@ -73,8 +82,8 @@ h1 {
   padding-bottom: 30px !important;
 }
 
-.uk-text {
-  font-family: sans-serif;
+.uk-text {  
+  font-family: Roboto !important;
 }
 
 .vertical-center {

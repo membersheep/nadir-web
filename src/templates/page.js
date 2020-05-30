@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
-import Moment from "react-moment"
 import Layout from "../components/layout"
 
 export const query = graphql`

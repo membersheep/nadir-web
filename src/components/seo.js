@@ -35,11 +35,15 @@ function SEO({ description, lang, meta, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       link={[
-  {
-    rel: "stylesheet",
-    href:
-      "https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css",
-  },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=Roboto",
+        },
+        {
+          rel: "stylesheet",
+          href:
+            "https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css",
+        },
 ]}
 script={[  
   {

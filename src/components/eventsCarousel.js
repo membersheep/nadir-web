@@ -1,6 +1,5 @@
 import React from "react"  
 import Card from "./card"
-import { Link } from "gatsby"
 
 const Events = ({ events }) => {
   return (
