@@ -25,6 +25,9 @@ h1 {
   height: 100vh;
   min-height: 100px;
 }
+.top-wrap-height-page {
+  height: 220px;
+}
 
 .uk-logo img {
   height: 55px;
