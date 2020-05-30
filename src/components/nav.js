@@ -13,7 +13,7 @@ const Nav = () => (
                 <a class="uk-logo" title="Logo" href=""><img src="/logo.png" alt="Logo"/></a>  
               </div>
             </li>
-            <li>
+            <li class ="uk-visible@m">
               <Link to="/">
                 <h1 id="sitename" class="uk-text">circolo nadir</h1>
               </Link>
