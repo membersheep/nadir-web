@@ -9,6 +9,7 @@ export const query = graphql`
     strapiPage(strapiId: { eq: $id }) {
       strapiId
       title
+      text
     }
   }
 `
@@ -22,7 +23,7 @@ const Page = ({ data }) => {
     	</div>
         <div className="uk-section">
           <div className="uk-container uk-container-small">
-            <ReactMarkdown source={page.title} />
+            <ReactMarkdown source={page.text} />
           </div>
         </div>
     </Layout>
