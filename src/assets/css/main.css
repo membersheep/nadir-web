@@ -95,8 +95,6 @@ h1 {
   background: #FFF !important;
 }
 
-
-
 .uk-section {
   padding-top: 30px !important;
   padding-bottom: 30px !important;
@@ -104,6 +102,11 @@ h1 {
 
 .uk-text {  
   font-family: Hind !important;
+}
+
+.page-text {  
+  font-family: Hind !important;
+  line-height: 2;
 }
 
 .vertical-center {

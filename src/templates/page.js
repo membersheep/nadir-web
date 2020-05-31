@@ -30,7 +30,7 @@ const Page = ({ data }) => {
         </div>
         <img src={coverImage} data-sizes="20vw" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0"/>
       </div> 
-      <div className="uk-container uk-container-small uk-margin uk-text">
+      <div className="uk-container uk-container-small uk-margin page-text">
         <ReactMarkdown source={page.text} />
       </div>
     </Layout>
