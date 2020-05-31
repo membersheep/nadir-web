@@ -10,7 +10,7 @@ const Nav = () => (
           <ul className="uk-navbar-nav">
             <li> 
               <div class="vertical-center">
-                <a class="uk-logo" title="Logo" href=""><img src="/logo.png" alt="Logo"/></a>  
+                <a class="uk-logo" title="Logo" href="/"><img src="/logo.png" alt="Logo"/></a>  
               </div>
             </li>
             <li class ="uk-visible@m">
