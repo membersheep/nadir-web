@@ -37,7 +37,7 @@ function SEO({ description, lang, meta, title }) {
       link={[
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css?family=Roboto",
+          href: "https://fonts.googleapis.com/css?family=Hind",
         },
         {
           rel: "stylesheet",
