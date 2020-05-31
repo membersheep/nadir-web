@@ -48,6 +48,10 @@ h1 {
   color: #fff !important;
 }
 
+#nav-spacer {  
+  height: 90px !important;
+}
+
 #section-title {  
   font-family: Hind !important;
   color: #000 !important;

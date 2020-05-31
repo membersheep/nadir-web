@@ -6,7 +6,8 @@ import "../assets/css/main.css"
 const IndexPage = () => (  
   <Layout>
 	<div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height">
-		<div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top">
+		<div class="uk-container uk-flex-auto top-container uk-position-relative">
+			<div id="nav-spacer"/>
 			<p class="uk-text-emphasis uk-text-small">Uno spazio fisico capace di divenire spazio di azione per costruire e trasformare la realtà.</p>
 			<div class="uk-column-1-3@s">
 				<p class="uk-text-emphasis uk-text-small">Nadir è un luogo in cui sviluppare idee, pensieri e pratiche; il punto diametralmente opposto allo zenit, sulla direzione che parte dal cielo e punta verso il basso. Nadir è un circolo in cui tutte le costellazioni del pensiero servono a costruire socialità, cultura, aggregazione e mutualismo tra le persone che lo vivono.</p>
