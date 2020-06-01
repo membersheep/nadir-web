@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
 import Layout from "../components/layout"
+import "../assets/css/main.css"
 
 export const query = graphql`
   query PageQuery($id: String) {
