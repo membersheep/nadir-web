@@ -21,10 +21,19 @@ h1 {
   z-index: 2;
 }
 
-.top-wrap-height {
-  height: 70vh;
-  min-height: 100px;
+@media (min-width: 640px) {
+  .top-wrap-height {
+    height: 70vh;
+    min-height: 350px;
+  }
 }
+
+@media (max-width: 640px) {
+  .top-wrap-height {
+    height: 100px;
+  }
+}
+
 .top-wrap-height-page {
   height: 220px;
 }
