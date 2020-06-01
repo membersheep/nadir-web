@@ -10,13 +10,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(
     `
       {
-        events: allStrapiEvent {
-          edges {
-            node {
-              strapiId
-            }
-          }
-        }
         pages: allStrapiPage {
           edges {
             node {
