@@ -39,7 +39,9 @@ h1 {
 }
 
 .uk-logo img {
-  height: 55px;
+  width: 55px;
+  min-width: 25px;
+  object-fit: cover;
 }
 
 #sitename {  
