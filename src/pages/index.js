@@ -15,7 +15,6 @@ const IndexPage = () => (
 				<p class="uk-text-emphasis uk-text-small">Il circolo Nadir vuole diventare un punto di riferimento capace di offrire una proposta culturale innovativa e continuativa, vuole essere una risposta a esigenze e bisogni in costante mutamento, uno spazio inedito nelle forme e nei metodi di gestione.</p>
 			</div>
 		</div>
-		<img src="/bg.jpg" data-sizes="100vw" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0"/>
 	</div>
 	<div class="uk-container uk-section">
 		<div class="uk-container uk-flex-auto top-container uk-position-relative uk-hidden@s">

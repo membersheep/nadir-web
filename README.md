@@ -7,6 +7,16 @@
   nadir-web
 </h1>
 
+prerequisites
+git
+npm 6
+
+npm install -g gatsby@2.21.21
+
+install dependencies
+npm install
+
+
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.

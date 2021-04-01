@@ -9,9 +9,12 @@ h1 {
   text-transform: uppercase  !important;
 }
 
+.uk-background-default {
+  color: #123 !important;
+}
+
 .nav {
   position: absolute;
-  top: 15px;
   z-index: 99;
   left: 0;
   right: 0;
@@ -87,7 +90,7 @@ h1 {
 }
 
 .uk-section-primary {
-  background: #FFF !important;
+  background: #000 !important;
 }
 
 .uk-button-primary {

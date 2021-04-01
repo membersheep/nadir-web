@@ -3,8 +3,8 @@ import { Link, StaticQuery, graphql } from "gatsby"
 import NavItem from "../components/navItem.js"
 
 const Nav = () => (  
-  <div class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
-    <div class="uk-container">
+  <div class="nav" data-uk-sticky="cls-active: uk-background-primary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+    <div class="uk-container uk-background-primary">
       <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
         <div className="uk-navbar-left">
           <ul className="uk-navbar-nav">
