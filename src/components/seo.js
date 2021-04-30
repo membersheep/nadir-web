@@ -42,20 +42,20 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: "stylesheet",
           href:
-            "https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css",
+            "https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/css/uikit.min.css",
         },
 ]}
 script={[  
   {
     src:
-      "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.4.6/js/uikit.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.20/js/uikit.min.js",
   },
   {
     src:
-      "https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js",
+      "https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit-icons.min.js",
   },
   {
-    src: "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.4.6/js/uikit.js",
+    src: "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.20/js/uikit.js",
   },
 ]}
       meta={[
