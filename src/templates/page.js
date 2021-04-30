@@ -10,9 +10,7 @@ export const query = graphql`
       strapiId
       title
       text
-      cover {
-        publicURL
-      }
+      
     }
   }
 `
@@ -20,9 +18,9 @@ export const query = graphql`
 const Page = ({ data }) => {
   const page = data.strapiPage
   var coverImage = "/bg.jpg"
-  if (page.cover != null) {
-    coverImage = page.cover.publicURL
-  }
+  // if (page.cover != null) {
+  //   coverImage = page.cover.publicURL
+  // }
   return (
     <Layout>
       <div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height-page">
