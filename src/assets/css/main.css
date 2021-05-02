@@ -1,14 +1,3 @@
-a {  
-  font-family: Hind !important;
-  text-decoration: none !important;
-}
-
-h1 {  
-  font-family: Hind !important;
-  font-size: 50px !important;
-  text-transform: uppercase  !important;
-}
-
 .top-container {
   z-index: 2;
 }
@@ -26,18 +15,14 @@ h1 {
   }
 }
 
-.top-wrap-height-page {
-  height: 220px;
-}
-
 #section-title {  
   font-family: Hind !important;
-  color: #000 !important;
+  color: #173e55;
 }
 
 #section-text {  
   font-family: Hind !important;
-  color: #000 !important;
+  color: #173e55;
 }
 
 #category {  
@@ -70,10 +55,7 @@ h1 {
   font-family: Hind !important;
 }
 
-.page-text {  
-  font-family: Hind !important;
-  line-height: 2;
-}
+
 
 img:hover {  
   opacity: 1 !important;

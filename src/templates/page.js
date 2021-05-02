@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
 import Layout from "../components/layout"
-import "../assets/css/main.css"
+import "./page.css"
 
 export const query = graphql`
   query PageQuery($id: String) {
@@ -10,27 +10,28 @@ export const query = graphql`
       strapiId
       title
       text
-      
     }
   }
 `
 
 const Page = ({ data }) => {
   const page = data.strapiPage
-  var coverImage = "/bg.jpg"
+  //var coverImage = "/bg.jpg"
   // if (page.cover != null) {
   //   coverImage = page.cover.publicURL
   // }
   return (
     <Layout>
-      <div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height-page">
-        <div class="uk-container uk-flex-auto top-container uk-position-bottom-left uk-margin-medium-top">
-          <h1 class="uk-margin-remove-top">{page.title}</h1>
+      <div class="uk-cover-container uk-light uk-flex uk-flex-column uk-flex-middle">
+        <div id="nav-spacer"></div>
+        <div class="uk-padding">
+          <div class="uk-container uk-flex-auto">
+            <h1 id="page-title" class="uk-heading-medium">{page.title}</h1>
+          </div>
+          <div id="page-text" class="uk-container uk-flex-auto">
+            {page.text}
+          </div>
         </div>
-        <img src={coverImage} data-sizes="20vw" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0"/>
-      </div> 
-      <div className="uk-container uk-container-small uk-margin page-text">
-        <ReactMarkdown source={page.text} />
       </div>
     </Layout>
   )
