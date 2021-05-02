@@ -9,17 +9,6 @@ h1 {
   text-transform: uppercase  !important;
 }
 
-.uk-background-default {
-  color: #123 !important;
-}
-
-.nav {
-  position: absolute;
-  z-index: 99;
-  left: 0;
-  right: 0;
-}
-
 .top-container {
   z-index: 2;
 }
@@ -39,31 +28,6 @@ h1 {
 
 .top-wrap-height-page {
   height: 220px;
-}
-
-.uk-logo img {
-  width: 55px;
-  min-width: 25px;
-  object-fit: cover;
-}
-
-#sitename {  
-  font-family: Hind !important;
-  color: #fff !important;
-  margin: 0;
-  height: 52px;
-}
-
-#navbar-item {  
-  font-family: Hind !important;
-  font-family: sans-serif;
-  font-size: 15px;
-  font-weight: lighter;
-  color: #f49d60 !important;
-}
-
-#nav-spacer {  
-  height: 90px !important;
 }
 
 #section-title {  
@@ -109,14 +73,6 @@ h1 {
 .page-text {  
   font-family: Hind !important;
   line-height: 2;
-}
-
-.vertical-center {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 img:hover {  

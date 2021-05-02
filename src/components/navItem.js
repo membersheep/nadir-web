@@ -1,5 +1,6 @@
 import React from "react"  
 import { Link } from "gatsby"
+import "../components/navItem.css"
 
 const Item = ({ section }) => {  
   if (section.node.pages.length > 0) {

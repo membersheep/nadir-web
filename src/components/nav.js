@@ -1,6 +1,7 @@
 import React from "react"  
 import { Link, StaticQuery, graphql } from "gatsby"
 import NavItem from "../components/navItem.js"
+import "../components/nav.css"
 
 const Nav = () => (  
   <div class="nav" data-uk-sticky="cls-active: uk-background-primary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
