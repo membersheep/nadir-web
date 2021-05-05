@@ -5,6 +5,11 @@
   right: 0;
 }
 
+.uk-navbar {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .uk-background-primary {
 	background-color: #f49d60 !important;
 }
