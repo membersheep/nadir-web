@@ -9,9 +9,9 @@
 
 prerequisites
 git
-node 8
+node 12
 npm 6
-yarn
+yarn 1.22
 
 install dependencies
 yarn install
