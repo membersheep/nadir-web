@@ -22,14 +22,14 @@ const Page = ({ data }) => {
   // }
   return (
     <Layout>
-      <div class="uk-cover-container uk-light uk-flex uk-flex-column uk-flex-middle">
+      <div class="uk-cover-container uk-light uk-flex uk-flex-column uk-flex-left">
         <div id="nav-spacer"></div>
         <div class="uk-padding">
-          <div class="uk-container uk-flex-auto">
+          <div class="uk-container">
             <h1 id="page-title" class="uk-heading-medium">{page.title}</h1>
           </div>
-          <div id="page-text" class="uk-container uk-flex-auto">
-            {page.text}
+          <div id="page-text" class="uk-container page-text">
+            <ReactMarkdown>{page.text}</ReactMarkdown>
           </div>
         </div>
       </div>
