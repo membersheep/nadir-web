@@ -9,12 +9,12 @@
 
 prerequisites
 git
+node 8
 npm 6
-
-npm install -g gatsby@2.21.21
+yarn
 
 install dependencies
-npm install
+yarn install
 
 
 1.  **Start developing.**
@@ -23,7 +23,7 @@ npm install
 
     ```shell
     cd nadir-web/
-    gatsby develop
+    yarn run develop
     ```
 
 1.  **Open the source code and start editing!**
