@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Nav from "./nav"  
 import Seo from "./seo"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {  
   return (
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
 		<main>
 			{children}
 		</main>
+		<Footer />
     </>
   )
 }

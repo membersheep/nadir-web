@@ -28,7 +28,7 @@ const IndexPage = () => (
 		</div>
 	</div>
 	<div class="uk-container uk-section">
-		<h1 class="uk-margin-remove-top uk-width-1-2">Sostienici</h1>
+		<h1 id="section-title" class="uk-margin-remove-top uk-width-1-2">Sostienici</h1>
 		<p class="subtitle-text uk-visible@s uk-width-1-2">Ci sono tanti progetti in cantiere - in un futuro in cui non sarà tutto come prima, vogliamo esserci con lo stesso spirito di sempre e un rinnovato desiderio di ritrovarsi ancora più forti.  </p>
 		<Link class="uk-button uk-button-primary uk-border-pill uk-hidden@s uk-width-1-2" to={"/page/5ed13f34b5c2cf00172b4204"}> 
 			fai una donazione

@@ -17,12 +17,12 @@
 
 #section-title {  
   font-family: Hind !important;
-  color: #173e55;
+  color: #173e55 !important;
 }
 
 #section-text {  
   font-family: Hind !important;
-  color: #173e55;
+  color: #173e55 !important;
 }
 
 #category {  
@@ -30,20 +30,12 @@
   font-weight: 500 !important;
 }
 
-#title {
-  letter-spacing: 0.4px !important;  
-  font-family: Hind !important;
-  font-size: 22px !important;
-  font-size: 1.375rem !important;
-  line-height: 1.13636 !important;
-}
-
 .uk-section-primary {
-  background: #000 !important;
+  background: #173e55 !important;
 }
 
 .uk-button-primary {
-  background-color: #000 !important;
+  background-color: #f49d60 !important;
 }
 
 .uk-section {

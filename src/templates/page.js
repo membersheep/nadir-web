@@ -22,7 +22,7 @@ const Page = ({ data }) => {
   // }
   return (
     <Layout>
-      <div class="uk-cover-container uk-light uk-flex uk-flex-column uk-flex-left">
+      <div class="uk-cover-container uk-light uk-flex uk-flex-column uk-flex-left" uk-height-viewport="expand: true">
         <div id="nav-spacer"></div>
         <div class="uk-padding">
           <div class="uk-container">
