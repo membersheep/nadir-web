@@ -1,4 +1,5 @@
 import React from "react"  
+import { Link } from "gatsby"
 import "../components/footer.css"
 
 const Footer = () => (  
@@ -10,6 +11,9 @@ const Footer = () => (
           Circolo Nadir, Piazzetta Gasparotto 10, Padova <br/>
           circolonadir[at]gmail.com
         </p>
+        <Link class="uk-text-small" to={"/page/6094f66335e00a001780bf74"}> 
+          Contributi pubblici
+        </Link>
       </div>
       <div class="uk-container uk-container-small">
         <p class="uk-text-small">
