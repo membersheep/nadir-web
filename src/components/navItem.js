@@ -10,7 +10,15 @@ const Item = ({ section }) => {
         <div class="uk-navbar-dropdown">
             <ul class="uk-nav uk-navbar-dropdown-nav">
                 {
-                  section.node.pages.map ((page, i) => { 
+                  section.node.pages
+                  .sort((first,second) => {
+                    if (first.title > second.title) {
+                      return 1;
+                    } else {
+                      return -1;
+                    }
+                  })
+                  .map ((page, i) => { 
                     return (
                       <li key={page.id}>
                         <Link to={`/page/${page.id}`}> 

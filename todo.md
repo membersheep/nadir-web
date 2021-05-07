@@ -1,7 +1,7 @@
-- aggiungere link a pagina "Trasparenza contributi pubblici" nel footer
-- aggiungere link "Statuto" in sezione associazione che apre direttamente il file
+- aggiungere link "Statuto" in sezione associazione che apre direttamente il file pdf
+	Aggiungere campo "url" a entità page e usarlo come link diretto nella navbar
+	Aggiungere campo "order" a pagina in modo da poterle ordinare nei menu
 - eventi
-- interlinea testo
 - cambiare font
 - togliere titolo navbar, aggiungere nuovo logo
 - aggiungere un campo htmlText su pagina strapi
