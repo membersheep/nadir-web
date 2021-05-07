@@ -27,7 +27,7 @@ const Nav = () => (
             <StaticQuery
               query={graphql`
                 query {
-                  allStrapiSection {
+                  allStrapiSection(sort: {fields: strapiId}) {
                     edges {
                       node {
                         strapiId
