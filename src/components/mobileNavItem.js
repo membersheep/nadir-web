@@ -37,7 +37,6 @@ const MobileItem = ({ section }) => {
                       ) 
                     }
                   })
-                    }
                 }
             </ul>
         </div>
