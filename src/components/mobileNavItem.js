@@ -19,14 +19,25 @@ const MobileItem = ({ section }) => {
                     }
                   })
                   .map ((page, i) => { 
-                    return (
-                      <li key={page.id}>
-                        <Link id="mobile-navbar-subitem" to={`/page/${page.id}`}> 
-                          {page.title}
-                        </Link>
-                      </li>
-                    ) 
+                    if (page.static_url == null) {
+                      return (
+                        <li key={page.id}>
+                          <Link id="mobile-navbar-subitem" to={`/page/${page.id}`}> 
+                            {page.title}
+                          </Link>
+                        </li>
+                      ) 
+                    } else {
+                      return (
+                        <li key={page.id}>
+                          <Link id="mobile-navbar-subitem" to={`${page.static_url}`}> 
+                            {page.title}
+                          </Link>
+                        </li>
+                      ) 
+                    }
                   })
+                    }
                 }
             </ul>
         </div>
