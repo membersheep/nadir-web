@@ -4,3 +4,19 @@
   font-size: 15px;
   color: #173e55;
 }
+
+#mobile-navbar-item {  
+  font-family: Hind;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #173e55;
+  padding: 30px;
+}
+
+#mobile-navbar-subitem {  
+  font-family: Hind;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #173e55;
+  padding-left: 45px;
+}
