@@ -19,13 +19,23 @@ const Item = ({ section }) => {
                     }
                   })
                   .map ((page, i) => { 
-                    return (
-                      <li key={page.id}>
-                        <Link to={`/page/${page.id}`}> 
-                          {page.title}
-                        </Link>
-                      </li>
-                    ) 
+                    if (page.static_url == null) {
+                      return (
+                        <li key={page.id}>
+                          <Link to={`/page/${page.id}`}> 
+                            {page.title}
+                          </Link>
+                        </li>
+                      )
+                    } else {
+                      return (
+                        <li key={page.id}>
+                          <Link to={`${page.static_url}`}> 
+                            {page.title}
+                          </Link>
+                        </li>
+                      )
+                    }
                   })
                 }
             </ul>

@@ -17,6 +17,7 @@ const Nav = () => {
                 id
                 section
                 title
+                static_url
               }
               page {
                 id

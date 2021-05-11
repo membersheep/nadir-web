@@ -1,6 +1,5 @@
 - Aggiungere link "Statuto" in sezione associazione che apre direttamente il file pdf
-	Aggiungere campo "url" a entità page e usarlo come link diretto nella navbar
-	Aggiungere campo "order" a pagina in modo da poterle ordinare nei menu
+- Ordinare pagine in menu
 - eventi
 - cambiare font
 - aggiungere un campo htmlText su pagina strapi
