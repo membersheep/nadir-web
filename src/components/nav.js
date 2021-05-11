@@ -18,6 +18,7 @@ const Nav = () => {
                 section
                 title
                 static_url
+                index
               }
               page {
                 id

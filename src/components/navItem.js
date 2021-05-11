@@ -12,7 +12,7 @@ const Item = ({ section }) => {
                 {
                   section.node.pages
                   .sort((first,second) => {
-                    if (first.title > second.title) {
+                    if (first.index > second.index) {
                       return 1;
                     } else {
                       return -1;
