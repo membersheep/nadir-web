@@ -15,9 +15,7 @@ const Nav = () => (
               </div>
             </li>
             <li class ="uk-visible@m">
-              <Link to="/">
-                <h1 id="sitename" class="uk-text">circolo nadir</h1>
-              </Link>
+              <a id="nav-title" title="Title" href="/"><img src="/nadir.png" alt="Nadir"/></a>  
             </li>
           </ul>
         </div>

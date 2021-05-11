@@ -21,6 +21,12 @@
   color: #173e55;
 }
 
+#nav-title img {
+  height: 55px;
+  object-fit: cover;
+  color: #173e55;
+}
+
 .vertical-center {
   margin: 0;
   position: relative;
