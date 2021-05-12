@@ -22,7 +22,7 @@ const MobileItem = ({ section }) => {
                     if (page.static_url == null) {
                       return (
                         <li key={page.id}>
-                          <Link id="mobile-navbar-subitem" to={`/page/${page.id}`}> 
+                          <Link id="mobile-navbar-subitem" to={`/page/${page.title.replace(" ", "").toLowerCase()}`}> 
                             {page.title}
                           </Link>
                         </li>
@@ -45,7 +45,7 @@ const MobileItem = ({ section }) => {
   } else {
     return(
       <li>
-        <Link id="mobile-navbar-item" to={`/page/${section.node.page.id}`}> 
+        <Link id="mobile-navbar-item" to={`/page/${section.node.page.title.replace(" ", "").toLowerCase()}`}> 
           {section.node.title}
         </Link>
       </li>

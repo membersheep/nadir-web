@@ -22,7 +22,7 @@ const Item = ({ section }) => {
                     if (page.static_url == null) {
                       return (
                         <li key={page.id}>
-                          <Link to={`/page/${page.id}`}> 
+                          <Link to={`/page/${page.title.replace(" ", "").toLowerCase()}`}> 
                             {page.title}
                           </Link>
                         </li>
@@ -45,7 +45,7 @@ const Item = ({ section }) => {
   } else {
     return(
       <li>
-        <Link id="navbar-item" to={`/page/${section.node.page.id}`}> 
+        <Link id="navbar-item" to={`/page/${section.node.page.title.replace(" ", "").toLowerCase()}`}> 
           {section.node.title}
         </Link>
       </li>

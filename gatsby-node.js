@@ -39,7 +39,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // })
   pages.forEach((page, index) => {
     createPage({
-      path: `/page/${page.node.strapiId}`,
+      path: `/page/${page.node.title.replace(" ", "").toLowerCase()}`,
       component: require.resolve("./src/templates/page.js"),
       context: {
         id: page.node.strapiId,
