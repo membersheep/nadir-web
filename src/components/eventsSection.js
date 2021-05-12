@@ -14,6 +14,9 @@ const EventsSection = () => {
                 strapiId
                 name
                 date
+                cover {
+                  url
+                }
               }
             }
           }
@@ -22,7 +25,7 @@ const EventsSection = () => {
       render={ data => (
         <div class="uk-container uk-section">
           <h1 id="section-title" class="uk-margin-remove-top uk-width-1-2">Prossimi eventi</h1>
-          <div class="uk-flex uk-flex-between" uk-grid>
+          <div class="uk-flex uk-flex-between">
             { data.allStrapiEvent.edges.map((event, i) => { return (<EventCard event={event} />) }) }
           </div>
         </div>
