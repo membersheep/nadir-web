@@ -1,40 +1,13 @@
 import React from "react"  
 import { Link } from "gatsby"
 import Layout from "../components/layout"  
+import EventsSection from "../components/eventsSection"  
 import "../assets/css/main.css"
 
 const IndexPage = () => (  
   <Layout>
   	<div id="nav-spacer"></div>
-  	<div class="uk-container uk-section">
-  		<h1 id="section-title" class="uk-margin-remove-top uk-width-1-2">Prossimi eventi</h1>
-		<div class="uk-flex uk-flex-between" uk-grid>
-	        <div class="uk-card uk-card-default uk-card-body uk-width-medium uk-height-medium uk-visible@m">
-	            <h3 class="uk-card-title">Evento</h3>
-	            <p>21/11/1988</p>
-	        </div>
-	        <div class="uk-card uk-card-default uk-card-body uk-width-medium uk-height-medium uk-visible@m">
-	            <h3 class="uk-card-title">Evento</h3>
-	            <p>21/11/1988</p>
-	        </div>
-	        <div class="uk-card uk-card-default uk-card-body uk-width-medium uk-height-medium uk-visible@m">
-	            <h3 class="uk-card-title">Evento</h3>
-	            <p>21/11/1988</p>
-	        </div>
-	        <div class="uk-card uk-card-default uk-card-body uk-width-small uk-height-small uk-hidden@m">
-	            <h3 class="uk-card-title">Evento</h3>
-	            <p>21/11/1988</p>
-	        </div>
-	        <div class="uk-card uk-card-default uk-card-body uk-width-small uk-height-small uk-hidden@m">
-	            <h3 class="uk-card-title">Evento</h3>
-	            <p>21/11/1988</p>
-	        </div>
-	        <div class="uk-card uk-card-default uk-card-body uk-width-small uk-height-small uk-hidden@m uk-visible@s">
-	            <h3 class="uk-card-title">Evento</h3>
-	            <p>21/11/1988</p>
-	        </div>
-		</div>
-	</div>
+  	<EventsSection />
 	<div class="uk-container uk-section">
 		<h1 id="section-title" class="uk-margin-remove-top uk-width-1-2">Cos'è il Circolo Nadir?</h1>
 		<p class="uk-text-small">Uno spazio fisico capace di divenire spazio di azione per costruire e trasformare la realtà.</p>
