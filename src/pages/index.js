@@ -29,7 +29,7 @@ const IndexPage = () => (
 	            <h3 class="uk-card-title">Evento</h3>
 	            <p>21/11/1988</p>
 	        </div>
-	        <div class="uk-card uk-card-default uk-card-body uk-width-small uk-height-small uk-hidden@m">
+	        <div class="uk-card uk-card-default uk-card-body uk-width-small uk-height-small uk-hidden@m uk-visible@s">
 	            <h3 class="uk-card-title">Evento</h3>
 	            <p>21/11/1988</p>
 	        </div>
