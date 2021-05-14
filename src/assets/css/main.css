@@ -54,6 +54,12 @@
   height:30vw !important;
 }
 
+.square50 {
+  width:50vw !important; 
+  height:48vw !important;
+  margin-right: 30px !important;
+}
+
 .square80 {
   width:80vw !important; 
   height:80vw !important;

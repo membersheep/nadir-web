@@ -27,16 +27,31 @@ const Event = ({ data }) => {
   // if (page.cover != null) {
   //   coverImage = page.cover.publicURL
   // }
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
   return (
     <Layout>
-      <div class="uk-cover-container uk-light uk-flex uk-flex-column uk-flex-left" uk-height-viewport="expand: true">
+      <div class="uk-section" uk-height-viewport="expand: true">
         <div id="nav-spacer"></div>
-        <div class="uk-padding">
-          <div class="uk-container">
-            <h1 id="page-title" class="uk-heading-medium">{event.name}</h1>
+        <div class="uk-flex uk-visible@m">
+          <div class="uk-cover-container square50">  
+            <img src={event.cover.url} alt="" data-uk-cover/>
           </div>
-          <div id="page-text" class="uk-container page-text">
+          <div class="square50">
+            <h1>{event.name}</h1>
+            <p>{new Date(event.date).toLocaleDateString("it-IT", options)}</p>
+            <p>{event.price}</p>
             <ReactMarkdown>{event.description}</ReactMarkdown>
+          </div>
+        </div>
+        <div class="uk-hidden@m">
+          <div class="uk-cover-container square80">  
+            <img src={event.cover.url} alt="" data-uk-cover/>
+          </div>
+          <div class="square80">
+            <h1>{event.name}</h1>
+            <p>{new Date(event.date).toLocaleDateString("it-IT", options)}</p>
+            <p>{event.price}</p>
+            <p>{event.description}</p>
           </div>
         </div>
       </div>
