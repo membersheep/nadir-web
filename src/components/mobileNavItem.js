@@ -42,10 +42,18 @@ const MobileItem = ({ section }) => {
         </div>
       </li>
     )
-  } else {
+  } else if (section.node.page != null)  {
     return(
       <li>
         <Link id="mobile-navbar-item" to={`/page/${section.node.page.title.replace(" ", "").toLowerCase()}`}> 
+          {section.node.title}
+        </Link>
+      </li>
+    )
+  } else {
+    return(
+      <li>
+        <Link id="mobile-navbar-item" to={`/events`}> 
           {section.node.title}
         </Link>
       </li>

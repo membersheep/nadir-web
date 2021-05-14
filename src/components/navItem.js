@@ -42,7 +42,7 @@ const Item = ({ section }) => {
         </div>
       </li>
     )
-  } else {
+  } else if (section.node.page != null) {
     return(
       <li>
         <Link id="navbar-item" to={`/page/${section.node.page.title.replace(" ", "").toLowerCase()}`}> 
@@ -50,7 +50,16 @@ const Item = ({ section }) => {
         </Link>
       </li>
     )
-  }
+  } else {
+    // go to events page
+    return(
+      <li>
+        <Link id="navbar-item" to={`/events`}> 
+          {section.node.title}
+        </Link>
+      </li>
+    )
+  } 
 }
 
 export default Item  
