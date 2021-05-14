@@ -39,7 +39,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const events = result.data.events.edges
   createPage({
-    path: `/events`,
+    path: `/eventi`,
     component: require.resolve("./src/pages/events.js"),
     context: { events: events},
   })

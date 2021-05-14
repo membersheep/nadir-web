@@ -54,7 +54,7 @@ const Item = ({ section }) => {
     // go to events page
     return(
       <li>
-        <Link id="navbar-item" to={`/events`}> 
+        <Link id="navbar-item" to={`/eventi`}> 
           {section.node.title}
         </Link>
       </li>

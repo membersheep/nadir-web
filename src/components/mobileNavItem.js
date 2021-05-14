@@ -53,7 +53,7 @@ const MobileItem = ({ section }) => {
   } else {
     return(
       <li>
-        <Link id="mobile-navbar-item" to={`/events`}> 
+        <Link id="mobile-navbar-item" to={`/eventi`}> 
           {section.node.title}
         </Link>
       </li>

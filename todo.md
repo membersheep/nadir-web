@@ -1,3 +1,2 @@
-- pagina elenco eventi
 - cambiare font
 - aggiungere un campo htmlText su pagina strapi
