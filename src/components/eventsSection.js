@@ -2,7 +2,6 @@ import React from "react"
 import { StaticQuery } from "gatsby"
 import { graphql } from "gatsby"
 import EventCard from "../components/eventCard.js"
-import "../components/eventsSection.css"
 
 const EventsSection = () => {
   return (

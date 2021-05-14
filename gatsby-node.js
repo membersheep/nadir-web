@@ -17,6 +17,14 @@ exports.createPages = async ({ graphql, actions }) => {
               title
             }
           }
+        },
+        events: allStrapiEvent {
+          edges {
+            node {
+              strapiId
+              name
+            }
+          }
         }
       }
     `
@@ -26,17 +34,17 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors
   }
 
-  // const events = result.data.events.edges
+  const events = result.data.events.edges
+  events.forEach((event, index) => {
+    createPage({
+      path: `/event/${event.node.name.replace(" ", "").toLowerCase()}`,
+      component: require.resolve("./src/templates/event.js"),
+      context: {
+        id: event.node.strapiId,
+      },
+    })
+  })
   const pages = result.data.pages.edges
-  // events.forEach((event, index) => {
-  //   createPage({
-  //     path: `/event/${event.node.strapiId}`,
-  //     component: require.resolve("./src/templates/event.js"),
-  //     context: {
-  //       id: event.node.strapiId,
-  //     },
-  //   })
-  // })
   pages.forEach((page, index) => {
     createPage({
       path: `/page/${page.node.title.replace(" ", "").toLowerCase()}`,
