@@ -1,12 +1,26 @@
 import React from "react"  
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"  
-import EventsSection from "../components/eventsSection"  
 import "./events.css"
 
-const EventsPage = ({ pageContext }) => {
-	console.log(pageContext)
-	const events = pageContext.events
+export const query = graphql`
+  query EventsQuery {
+    allStrapiEvent {
+		edges {
+			node {
+				strapiId
+				name
+				cover {
+					url
+				}
+			}
+		}
+	}		
+  }
+`
+
+const EventsPage = ({ data, pageContext }) => {
+	const events = data.allStrapiEvent.edges
 	return (  
 		<Layout>
 			<div id="nav-spacer"></div>
