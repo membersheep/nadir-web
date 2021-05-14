@@ -1,0 +1,23 @@
+.grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)) !important;
+  grid-auto-rows: 2fr !important;
+}
+
+.grid::before {
+  content: '' !important;
+  width: 0 !important;
+  padding-bottom: 100% !important;
+  grid-row: 1 / 1 !important;
+  grid-column: 1 / 1 !important;
+}
+
+.grid > *:first-child {
+  grid-row: 1 / 1 !important;
+  grid-column: 1 / 1 !important;
+}
+
+.grid > * {
+  background: rgba(0,0,0,0.1) !important;
+  border: 2px white solid !important;
+}

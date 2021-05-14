@@ -23,10 +23,6 @@ export const query = graphql`
 
 const Event = ({ data }) => {
   const event = data.strapiEvent
-  //var coverImage = "/bg.jpg"
-  // if (page.cover != null) {
-  //   coverImage = page.cover.publicURL
-  // }
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
   return (
     <Layout>

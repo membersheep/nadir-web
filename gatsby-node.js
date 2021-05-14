@@ -23,6 +23,9 @@ exports.createPages = async ({ graphql, actions }) => {
             node {
               strapiId
               name
+              cover {
+                url
+              }
             }
           }
         }
@@ -35,6 +38,11 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   const events = result.data.events.edges
+  createPage({
+    path: `/events`,
+    component: require.resolve("./src/pages/events.js"),
+    context: { events: events},
+  })
   events.forEach((event, index) => {
     createPage({
       path: `/event/${event.node.name.replace(" ", "").toLowerCase()}`,
