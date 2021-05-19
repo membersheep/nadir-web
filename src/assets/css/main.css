@@ -56,13 +56,23 @@
 
 .square50 {
   width:50vw !important; 
-  height:48vw !important;
+  height:47vw !important;
   margin-right: 30px !important;
+}
+
+.width50 {
+  width:50vw !important; 
+  /*margin-right: 30px !important;*/
 }
 
 .square80 {
   width:80vw !important; 
   height:80vw !important;
+  margin-bottom: 30px !important;
+}
+
+.width80 {
+  width:80vw !important; 
   margin-bottom: 30px !important;
 }
 

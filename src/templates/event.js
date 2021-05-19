@@ -31,18 +31,18 @@ const Event = ({ data }) => {
           <div class="uk-cover-container square50">  
             <img src={event.cover.url} alt="" data-uk-cover/>
           </div>
-          <div class="square50">
+          <div class="width50">
             <h1>{event.name}</h1>
             <p>{new Date(event.date).toLocaleDateString("it-IT", options)}</p>
             <p>{event.price}</p>
-            <ReactMarkdown>{event.description}</ReactMarkdown>
+            <p>{event.description}</p>
           </div>
         </div>
         <div class="uk-hidden@m">
           <div class="uk-cover-container square80">  
             <img src={event.cover.url} alt="" data-uk-cover/>
           </div>
-          <div class="square80">
+          <div class="width80">
             <h1>{event.name}</h1>
             <p>{new Date(event.date).toLocaleDateString("it-IT", options)}</p>
             <p>{event.price}</p>
