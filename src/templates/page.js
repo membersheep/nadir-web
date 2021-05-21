@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
 import Layout from "../components/layout"
+import GoogleMap from "../components/map"
 import "./page.css"
 
 export const query = graphql`
@@ -32,6 +33,9 @@ const Page = ({ data }) => {
             <ReactMarkdown>{page.text}</ReactMarkdown>
           </div>
         </div>
+        {typeof window !== 'undefined' && page.strapiId == '6094f78535e00a001780bf76' &&
+         <GoogleMap />
+        }
       </div>
     </Layout>
   )
