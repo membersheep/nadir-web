@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
 import Layout from "../components/layout"
-import LeafletMap from "../components/map"
 import "./page.css"
 
 export const query = graphql`
@@ -34,13 +33,6 @@ const Page = ({ data }) => {
           </div>
         </div>
       </div>
-      {typeof window !== 'undefined' && page.strapiId == '6094f78535e00a001780bf76' &&
-        <LeafletMap
-          position={[45.414132300925004, 11.87951543266815]}
-          zoom={14}
-          markerText={"Circolo Nadir"}
-        />
-      }
     </Layout>
   )
 }
