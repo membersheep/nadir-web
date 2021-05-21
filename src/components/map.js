@@ -15,7 +15,7 @@ const Marker = props => { return <> <img class="pin" src="/pin.png" alt="Logo"/>
 const GoogleMap = () => (
   <div style={{ height: '50vh', width: '100%' }}>
     <GoogleMapReact 
-      bootstrapURLKeys={{ key: 'AIzaSyCAhfVYHcht1KenhLg1cHt4Sc-bAHaCrR4' }}
+      bootstrapURLKeys={{ key: process.env.API_KEY }}
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
     >
