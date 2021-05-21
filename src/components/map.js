@@ -10,13 +10,7 @@ const defaultProps = {
   zoom: 15,
 }
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>
-const Marker = props => {
-  return <>
-    <div className="pin"></div>
-    <div className="pulse"></div>
-  </>
-}
+const Marker = props => { return <> <img class="pin" src="/pin.png" alt="Logo"/> </> }
 
 const GoogleMap = () => (
   <div style={{ height: '50vh', width: '100%' }}>
