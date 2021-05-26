@@ -46,7 +46,7 @@ const Event = ({ data }) => {
             <h1>{event.name}</h1>
             <p>{new Date(event.date).toLocaleDateString("it-IT", options)}</p>
             <p>{event.price}</p>
-            <p>{event.description}</p>
+            <ReactMarkdown>{event.description}</ReactMarkdown>
           </div>
         </div>
       </div>
