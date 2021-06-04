@@ -35,7 +35,8 @@
   margin-left: 20px;
 }
 
-#menu-button svg {
+#menu-button img {
+  margin-top: 3px;
   max-width: 55px;
   min-width: 25px;
 }
