@@ -30,9 +30,11 @@
 }
 
 #menu-button {
+  background-color: #f49d60 !important;
   color: #173e55;
   padding: 0px;
   margin-left: 20px;
+  border-width: 0;
 }
 
 #menu-button img {

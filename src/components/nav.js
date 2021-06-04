@@ -44,7 +44,7 @@ const Nav = () => {
             </ul>
           </div>
           <div className="uk-navbar-right">
-            <button id="menu-button" class="uk-navbar-toggle uk-hidden@s" type="button" uk-icon="icon: menu; ratio: 2" data-uk-toggle="target: #navbar-small">
+            <button id="menu-button" class="uk-navbar-toggle uk-hidden@s" type="button" data-uk-toggle="target: #navbar-small">
               <img src="/menu.png" alt="menu"/>
             </button>
             <ul class="uk-navbar-nav uk-visible@s">
