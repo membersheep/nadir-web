@@ -16,7 +16,7 @@
 
 .uk-logo img {
   max-height: 55px;
-  min-height: 25;
+  min-height: 25px;
   object-fit: cover;
   color: #173e55;
 }
@@ -32,6 +32,12 @@
 #menu-button {
   color: #173e55;
   padding: 0px;
+  margin-left: 20px;
+}
+
+#menu-button svg {
+  max-width: 55px;
+  min-width: 25px;
 }
 
 #navbar-small {
