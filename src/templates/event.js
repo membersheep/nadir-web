@@ -16,6 +16,7 @@ export const query = graphql`
         name
       }
       description
+      description_markdown
     }
   }
 `
@@ -35,7 +36,7 @@ const Event = ({ data }) => {
             <h1>{event.name}</h1>
             <p>{new Date(event.date).toLocaleDateString("it-IT", options)}</p>
             <p>{event.price}</p>
-            <p>{event.description}</p>
+            <p>{event.description_markdown}</p>
           </div>
         </div>
         <div class="uk-hidden@m">
@@ -46,7 +47,7 @@ const Event = ({ data }) => {
             <h1>{event.name}</h1>
             <p>{new Date(event.date).toLocaleDateString("it-IT", options)}</p>
             <p>{event.price}</p>
-            <ReactMarkdown>{event.description}</ReactMarkdown>
+            <ReactMarkdown>{event.description_markdown}</ReactMarkdown>
           </div>
         </div>
       </div>

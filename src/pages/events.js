@@ -5,7 +5,7 @@ import "./events.css"
 
 export const query = graphql`
   query EventsQuery {
-    allStrapiEvent {
+    allStrapiEvent(sort: { fields: date, order: DESC }) {
 		edges {
 			node {
 				strapiId

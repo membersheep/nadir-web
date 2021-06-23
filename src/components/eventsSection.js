@@ -8,7 +8,7 @@ const EventsSection = () => {
     <StaticQuery
       query={graphql`
         query {
-          allStrapiEvent(limit: 3) {
+          allStrapiEvent(sort: { fields: date, order: ASC }, limit: 3, filter: { isFuture: { eq: true } }) {
             edges {
               node {
                 strapiId

@@ -64,3 +64,18 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
+
+exports.createSchemaCustomization = ({ actions, schema, getNode }) => {
+  actions.createTypes([
+    schema.buildObjectType({
+      name: 'StrapiEvent',
+      interfaces: ['Node'],
+      fields: {
+        isFuture: {
+          type: 'Boolean!',
+          resolve: source => new Date(source.date) > new Date(),
+        },
+      },
+    }),
+  ]);
+};
