@@ -20,12 +20,9 @@ const IndexPage = () => (
 	<div class="uk-section">
 		<h1 id="section-title" class="uk-margin-remove-top">Sostienici</h1>
 		<p class="subtitle-text">Ci sono tanti progetti in cantiere - in un futuro in cui non sarà tutto come prima, vogliamo esserci con lo stesso spirito di sempre e un rinnovato desiderio di ritrovarsi ancora più forti.  </p>
-		<Link class="uk-button uk-button-primary uk-border-pill uk-hidden@s uk-width-1-2" to={"/page/sostieninadir"}> 
+		<Link class="uk-button uk-button-primary uk-border-pill" to={"/page/sostieninadir"}> 
 			fai una donazione
-        </Link>
-        <Link class="uk-button uk-button-primary uk-border-pill uk-visible@s" to={"/page/sostieninadir"}> 
-			fai una donazione
-        </Link>
+    </Link>
 	</div>
 
 

@@ -38,16 +38,15 @@ const Nav = () => {
             <ul className="uk-navbar-nav">
               <li> 
                 <div class="vertical-center">
-                  <a class="uk-logo" title="Logo" href="/"><img src="/logo.png" alt="Logo"/></a>  
+                  <a class="uk-logo" title="Logo" href="/"><img src="/logonadir.png" alt="Logo"/></a>  
                 </div>
-              </li>
-              <li class ="uk-visible@m">
-                <a id="nav-title" title="Title" href="/"><img src="/nadir.png" alt="Nadir"/></a>  
               </li>
             </ul>
           </div>
           <div className="uk-navbar-right">
-            <button id="menu-button" class="uk-navbar-toggle uk-hidden@s" type="button" uk-icon="icon: menu; ratio: 2" data-uk-toggle="target: #navbar-small"></button>
+            <button id="menu-button" class="uk-navbar-toggle uk-hidden@s" type="button" data-uk-toggle="target: #navbar-small">
+              <img src="/menu.png" alt="menu"/>
+            </button>
             <ul class="uk-navbar-nav uk-visible@s">
               { allStrapiSection.edges.map((section, i) => { return (<NavItem section={section} />) }) }
             </ul>

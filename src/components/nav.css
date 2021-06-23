@@ -15,14 +15,8 @@
 }
 
 .uk-logo img {
-  width: 55px;
-  min-width: 25px;
-  object-fit: cover;
-  color: #173e55;
-}
-
-#nav-title img {
-  height: 55px;
+  max-height: 55px;
+  min-height: 25px;
   object-fit: cover;
   color: #173e55;
 }
@@ -36,8 +30,17 @@
 }
 
 #menu-button {
+  background-color: #f49d60 !important;
   color: #173e55;
   padding: 0px;
+  margin-left: 20px;
+  border-width: 0;
+}
+
+#menu-button img {
+  margin-top: 3px;
+  max-width: 55px;
+  min-width: 25px;
 }
 
 #navbar-small {
