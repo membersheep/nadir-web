@@ -47,5 +47,13 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    {
+    resolve: "gatsby-plugin-netlify",
+    options: {
+      headers: {
+        "/*": [ "cache-control: max-age=0,no-cache,no-store,must-revalidate",],
+      },
+    },
+  },
   ],
 }
