@@ -12,7 +12,7 @@ const Footer = () => (
           circolonadir[at]gmail.com
         </p>
         <Link class="uk-text-small" to={"/page/trasparenzacontributi pubblici"}> 
-          Contributi pubblici
+          Trasparenza
         </Link>
       </div>
       <div class="uk-container uk-container-small">
