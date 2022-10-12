@@ -17,10 +17,6 @@ export const query = graphql`
 
 const Page = ({ data }) => {
   const page = data.strapiPage
-  //var coverImage = "/bg.jpg"
-  // if (page.cover != null) {
-  //   coverImage = page.cover.publicURL
-  // }
   return (
     <Layout>
       <div class="uk-cover-container uk-light uk-flex uk-flex-column uk-flex-left" uk-height-viewport="expand: true">
@@ -33,9 +29,6 @@ const Page = ({ data }) => {
             <ReactMarkdown>{page.text}</ReactMarkdown>
           </div>
         </div>
-        {typeof window !== 'undefined' && page.strapiId == '6094f78535e00a001780bf76' &&
-         <GoogleMap />
-        }
       </div>
     </Layout>
   )
