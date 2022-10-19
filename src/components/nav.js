@@ -1,5 +1,5 @@
 import React from "react"  
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import NavItem from "../components/navItem.js"
 import MobileNavItem from "../components/mobileNavItem.js"
 import "../components/nav.css"

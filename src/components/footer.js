@@ -21,9 +21,9 @@ const Footer = () => (
         </p>
       </div>
       <div class="uk-container uk-container-small uk-flex ">
-        <a href="https://www.instagram.com/circolonadir/" class="uk-icon-button uk-margin-small-right" uk-icon="icon: instagram"></a>
-        <a href="https://www.facebook.com/CircoloNadir/" class="uk-icon-button  uk-margin-small-right" uk-icon="icon: facebook"></a>
-        <a href="https://www.youtube.com/results?search_query=circolo+nadir" class="uk-icon-button" uk-icon="icon: youtube"></a>
+        <a href="https://www.instagram.com/circolonadir/" class="uk-icon-button uk-margin-small-right">ig</a>
+        <a href="https://www.facebook.com/CircoloNadir/" class="uk-icon-button  uk-margin-small-right">fb</a>
+        <a href="https://www.youtube.com/results?search_query=circolo+nadir" class="uk-icon-button">yt</a>
       </div>
     </div>
   </footer>
